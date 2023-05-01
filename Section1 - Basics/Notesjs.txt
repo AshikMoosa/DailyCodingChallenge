@@ -1,0 +1,39 @@
+#Basic Input and Output - JS
+
+Input 
+-window.prompt() - prompt(text, defaultText) - let person = prompt("Please enter your name", "Harry Potter");
+-If the user clicks "OK", the input value is returned. Otherwise null is returned.
+
+Output 
+-console.log(), document.write(), window.alert(), innerHTML
+-the window object is the global scope object. Hence window keyword is optional.
+-JavaScript does not have any print object or print methods.
+-You cannot access output devices from JavaScript.
+
+----------------------------------------------------------------------------------------------
+#DataTypes - JS
+JavaScript has 8 Datatypes
+-String
+-Number
+-Bigint
+-Boolean
+-Undefined
+-Null
+-Symbol
+-Object
+
+----------------------------------------------------------------------------------------------
+#Arrays - Js
+-1D
+-const cars = ["Saab", "Volvo", "BMW"];
+-const cars = [];
+-const cars = new Array("Saab", "Volvo", "BMW");
+
+-2D
+-let myArray = [
+[0, 1, 2, 3], 
+[4, 5, 6, 7],
+[8, 9, 0, 0]
+];
+
+----------------------------------------------------------------------------------------------

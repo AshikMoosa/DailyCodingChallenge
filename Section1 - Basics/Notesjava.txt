@@ -1,15 +1,3 @@
-#Basic Input and Output - JS
-
-Input 
--window.prompt() - prompt(text, defaultText) - let person = prompt("Please enter your name", "Harry Potter");
--If the user clicks "OK", the input value is returned. Otherwise null is returned.
-
-Output 
--console.log(), document.write(), window.alert(), innerHTML
--the window object is the global scope object. Hence window keyword is optional.
--JavaScript does not have any print object or print methods.
--You cannot access output devices from JavaScript.
-
 #Basic Input and Output - Java
 
 Input 
@@ -29,17 +17,6 @@ Output
 -System.out.printf("Formatted with" + " precision: PI = %.2f\n", Math.PI);
 
 ----------------------------------------------------------------------------------------------
-#DataTypes - JS
-JavaScript has 8 Datatypes
--String
--Number
--Bigint
--Boolean
--Undefined
--Null
--Symbol
--Object
-
 #DataTypes - Java
 Java has 2 Groups of Datatypes
 -Primitive data types - includes byte, short, int, long, float, double, boolean and char
@@ -54,19 +31,6 @@ Java has 2 Groups of Datatypes
 -The size of a primitive type depends on the data type, while non-primitive types have all the same size.
 
 ----------------------------------------------------------------------------------------------
-#Arrays - Js
--1D
--const cars = ["Saab", "Volvo", "BMW"];
--const cars = [];
--const cars = new Array("Saab", "Volvo", "BMW");
-
--2D
--let myArray = [
-[0, 1, 2, 3], 
-[4, 5, 6, 7],
-[8, 9, 0, 0]
-];
-
 #Arrays - Java
 -1D
 -String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
