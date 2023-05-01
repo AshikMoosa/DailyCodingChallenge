@@ -55,16 +55,29 @@ Java has 2 Groups of Datatypes
 
 ----------------------------------------------------------------------------------------------
 #Arrays - Js
+-1D
 -const cars = ["Saab", "Volvo", "BMW"];
 -const cars = [];
 -const cars = new Array("Saab", "Volvo", "BMW");
 
+-2D
+-let myArray = [
+[0, 1, 2, 3], 
+[4, 5, 6, 7],
+[8, 9, 0, 0]
+];
+
 #Arrays - Java
+-1D
 -String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
 -String[] cars;
 -String cars[];
 -int[] myNum = {10, 20, 30, 40};
 -int myNum[] = {10, 20, 30, 40};
 -int a[]=new int[5];
+
+-2D
+-int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+-int a[][]=new int[5][5];
 
 ----------------------------------------------------------------------------------------------
