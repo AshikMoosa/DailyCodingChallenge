@@ -1,0 +1,31 @@
+#Basic Input and Output - JS
+
+Input 
+-window.prompt() - prompt(text, defaultText) - let person = prompt("Please enter your name", "Harry Potter");
+-If the user clicks "OK", the input value is returned. Otherwise null is returned.
+
+Output 
+-console.log(), document.write(), window.alert(), innerHTML
+-the window object is the global scope object. Hence window keyword is optional.
+-JavaScript does not have any print object or print methods.
+-You cannot access output devices from JavaScript.
+
+----------------------------------------------------------------------------------------------
+#Basic Input and Output - Java
+
+Input 
+-import java.util.Scanner;
+-Scanner input = new Scanner(System.in);
+-int number = input.nextInt();
+-float myFloat = input.nextFloat();
+-double myDouble = input.nextDouble();
+-String myString = input.next();
+
+-In order to use the object of Scanner, we need to import java.util.Scanner package.
+-we can use nextLong(), nextFloat(), nextDouble(), and next() methods to get long, float, double, and string input  
+
+Output 
+-System.out.println() , System.out.print(), System.out.printf();
+-printf() -  may take multiple arguments. This is used to format the output in Java. 
+-System.out.printf("Formatted with" + " precision: PI = %.2f\n", Math.PI);
+
