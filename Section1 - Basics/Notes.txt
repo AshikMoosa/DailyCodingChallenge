@@ -10,7 +10,6 @@ Output
 -JavaScript does not have any print object or print methods.
 -You cannot access output devices from JavaScript.
 
-----------------------------------------------------------------------------------------------
 #Basic Input and Output - Java
 
 Input 
@@ -30,7 +29,6 @@ Output
 -System.out.printf("Formatted with" + " precision: PI = %.2f\n", Math.PI);
 
 ----------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------
 #DataTypes - JS
 JavaScript has 8 Datatypes
 -String
@@ -42,7 +40,6 @@ JavaScript has 8 Datatypes
 -Symbol
 -Object
 
-----------------------------------------------------------------------------------------------
 #DataTypes - Java
 Java has 2 Groups of Datatypes
 -Primitive data types - includes byte, short, int, long, float, double, boolean and char
@@ -57,4 +54,17 @@ Java has 2 Groups of Datatypes
 -The size of a primitive type depends on the data type, while non-primitive types have all the same size.
 
 ----------------------------------------------------------------------------------------------
+#Arrays - Js
+-const cars = ["Saab", "Volvo", "BMW"];
+-const cars = [];
+-const cars = new Array("Saab", "Volvo", "BMW");
+
+#Arrays - Java
+-String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+-String[] cars;
+-String cars[];
+-int[] myNum = {10, 20, 30, 40};
+-int myNum[] = {10, 20, 30, 40};
+-int a[]=new int[5];
+
 ----------------------------------------------------------------------------------------------
