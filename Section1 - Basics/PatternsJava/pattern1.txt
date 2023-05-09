@@ -25,6 +25,7 @@ Constraints:
 1<= N <= 20
 
 ----------------------------------------------------------------------------
+Brute-Force  O(n^2)
 
 void printSquare(int n) {
         // code here
@@ -33,5 +34,15 @@ void printSquare(int n) {
                 System.out.print("* ");
             }
             System.out.print("\n");
+        }
+    }
+
+Optimised  O(n)
+
+void printSquare(int n) {
+        // code here
+        String str = "* ".repeat(n);
+        for(int i=0;i<n;i++) {
+            System.out.println(str);
         }
     }
