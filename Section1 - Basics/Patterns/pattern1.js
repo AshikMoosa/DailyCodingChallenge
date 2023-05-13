@@ -9,6 +9,7 @@ function printSquare(n) {
 	}
 	console.log(str);
 }
+
 printSquare(5);
 
 //Optimised  O(n)
@@ -18,4 +19,5 @@ function printSquare(n) {
 		console.log(str);
 	}
 }
+
 printSquare(7);
