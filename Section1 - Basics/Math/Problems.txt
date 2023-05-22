@@ -59,3 +59,23 @@ Expected Auxiliary Space: O(1)
 
 Constraints:
 0 <= X < 232
+
+Problem-3
+Given an integer, check whether it is a palindrome or not.
+
+Example 1:
+
+Input: n = 555
+Output: Yes
+
+Example 2:
+
+Input: n = 123
+Output: No
+
+Expected Time Complexity: O(x)
+Expected Space Complexity: O(x) where x is number of digits in n.
+ 
+
+Constraints:
+1 <= n <= 1000
