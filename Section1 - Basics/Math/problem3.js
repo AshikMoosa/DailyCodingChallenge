@@ -26,4 +26,8 @@ is_palindrome(555);
  undefined
 
  Also note we used parseInt for division since js store decimals as well while dividing
+
+ Example input = -121 
+ Output = No 
+ to handle this negative case add n>=0 to if statement
 */
