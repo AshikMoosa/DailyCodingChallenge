@@ -109,3 +109,79 @@ Expected Auxiliary Space: O(1)
 
 Constraints:
 1 <= A,B <= 1018
+
+Problem-5
+For a given 3 digit number, find whether it is armstrong number or not.
+
+Example 1:
+
+Input: N = 153
+Output: "Yes"
+Explanation: 153 is an Armstrong number
+since 13 + 53 + 33 = 153.
+Hence answer is "Yes".
+
+Example 2:
+
+Input: N = 370
+Output: "Yes"
+Explanation: 370 is an Armstrong number
+since 33 + 73 + 03 = 370.
+Hence answer is "Yes".
+
+Expected Time Complexity: O(1)
+Expected Auxiliary Space: O(1)
+
+Constraints:
+100 ≤ n <1000
+
+Problem-6
+Given a positive integer N, Find Sum of all divisors from 1 to n
+
+Input:
+N = 4
+Output:
+15
+Explanation:
+F(1) = 1
+F(2) = 1 + 2 = 3
+F(3) = 1 + 3 = 4
+F(4) = 1 + 2 + 4 = 7
+ans = F(1) + F(2) + F(3) + F(4)
+    = 1 + 3 + 4 + 7
+    = 15
+
+Example 2:
+
+Input:
+N = 5
+Output:
+21
+Explanation:
+F(1) = 1
+F(2) = 1 + 2 = 3
+F(3) = 1 + 3 = 4
+F(4) = 1 + 2 + 4 = 7
+F(5) = 1 + 5 = 6
+ans = F(1) + F(2) + F(3) + F(4) + F(5)
+    = 1 + 3 + 4 + 7 + 6
+    = 21
+
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(1)
+
+Constraints:
+1 <= N <= 106
+
+Problem-7
+Given a number, check whether it is prime or not.A prime number is a natural number that is only divisible by 1 and by itself.
+
+Example 1:
+Input: N = 3
+Output: Prime
+Explanation: 3 is divisible by 1,3
+
+Example 2:
+Input: N = 4
+Output: Non-Prime
+Explanation: 4  is divisible by 1,2,4
