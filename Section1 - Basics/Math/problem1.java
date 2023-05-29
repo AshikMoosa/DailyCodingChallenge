@@ -1,4 +1,4 @@
-// Brute Force
+// Brute Force O(N)
 int evenlyDivides(int N){
     // code here
     String str = String.valueOf(N);
@@ -15,3 +15,17 @@ int evenlyDivides(int N){
     return count;
 }
 
+// Optimised O(log N)
+int evenlyDivides(int N){
+    // code here
+    int temp = N;
+    int rem = 0;
+    int result = 0;
+    while(temp!=0) {
+        rem = temp % 10;
+        if(rem!=0 && N%rem==0) 
+            result++;
+        temp=temp/10;
+    }
+    return result;
+}
