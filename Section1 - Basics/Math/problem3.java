@@ -1,5 +1,4 @@
-// Brute Force
-
+// Optimised O(log N)
 is_palindrome(int n) {
       //code here
     int rev=0;
