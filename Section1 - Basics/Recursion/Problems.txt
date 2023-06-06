@@ -1,0 +1,13 @@
+Problem-1
+Given a number N & string Name. Print Names N Times using recursion.
+
+Example 1:
+
+Input:
+N = 3
+Name = abc
+Output:
+abc
+abc
+abc
+
