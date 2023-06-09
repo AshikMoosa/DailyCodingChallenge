@@ -74,4 +74,17 @@ greater than N. So we print only first
 three factorial numbers.
 
 Constraints:
-1<=N<=1018
+1<=N<=10^8
+
+Problem-6
+Given an array, the task is to reverse the given array in Java.
+
+Example 1: 
+
+Input : 1, 2, 3, 4, 5
+Output :5, 4, 3, 2, 1
+
+Example 2:
+
+Input :  10, 20, 30, 40
+Output : 40, 30, 20, 10
