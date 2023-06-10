@@ -102,3 +102,12 @@ Example 2:
 Input: S = "abc" 
 Output: 0
 Explanation: S is not a palindrome
+
+Problem-8
+The Fibonacci numbers, commonly denoted F(n), Given n, calculate F(n)?
+Example 1:
+
+Input: n = 4
+Output: 3
+Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
+
