@@ -1,4 +1,4 @@
-// Brute Force - O(N^2)
+// Brute Force - O(N^2) - worst sorting algorithm
 function selectionSort(arr, n) {
 	for (let i = 0; i <= n - 2; i++) {
 		let selected = i;
@@ -23,4 +23,7 @@ Also no need run i to last element, it will be sorted in final iteration automat
 selected = j, updating index of min element
 then swapping it to its proper position.
 
+			Best					Avg						Worst
+T(N)	Ω(N^2)			 θ(N^2)					O(N^2)
+S(N)															O(1)
 */

@@ -26,3 +26,10 @@ function quickSort(arr, start, end) {
 
 let result = quickSort([4, 1, 3, 9, 7], 0, 4);
 console.log(result);
+
+/*Notes
+
+			Best					Avg						Worst
+T(N)	Ω(NLogN)		θ(NLogN)				O(N^2)
+S(N)	O(LogN)			O(LogN)					O(N)
+*/

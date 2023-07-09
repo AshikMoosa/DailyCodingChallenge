@@ -20,6 +20,9 @@ Value holds current value from array on index i as arr[i]. Hole(imaginary) holds
 For sorted array(Best case) condition arr[hole-1] > value always fails hence while loop wont execute
 For unsorted array comparison will be made between prev element(hole-1) with current element/Value
 and element inserted in right position.
-Time complexity - O(N^2) - Worst & Avg case - O(N) - Best case
 Due to no. of comparisons insertion sort is better than selection and bubble sort in real case
+
+			Best					Avg						Worst
+T(N)	Ω(N)				 θ(N^2)					O(N^2)
+S(N)															O(1)
 */

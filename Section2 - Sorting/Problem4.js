@@ -35,3 +35,10 @@ function mergeSort(arr, n) {
 
 let result = mergeSort([4, 1, 3, 9, 7], 5);
 console.log(result);
+
+/*Notes
+
+			Best					Avg						Worst
+T(N)	Ω(NLogN)		θ(NLogN)				O(NLogN)
+S(N)															O(N)
+*/
