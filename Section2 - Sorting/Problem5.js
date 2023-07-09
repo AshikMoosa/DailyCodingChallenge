@@ -4,13 +4,17 @@ function bubbleSort(arr, n) {
 		return arr;
 	}
 
+	let didSwap = 0;
 	for (let i = 0; i < n - 1; i++) {
 		if (arr[i] > arr[i + 1]) {
 			let temp = arr[i];
 			arr[i] = arr[i + 1];
 			arr[i + 1] = temp;
+			didSwap = 1;
 		}
 	}
+
+	if (didSwap === 0) return;
 
 	return bubbleSort(arr, n - 1);
 }
@@ -26,4 +30,7 @@ The space used by the call stack is a natural part of the program execution,
 
 However, it's important to note that the space complexity of Bubble Sort, whether iterative or recursive, 
 is generally considered to be O(1) because the sorting is performed in-place within the input array. 
+
+Here didSwap check for best case - already sorted array and doesn't run outer loop more than once. 
+hence O(N) in Best Case
 */
