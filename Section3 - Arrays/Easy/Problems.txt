@@ -1,6 +1,6 @@
+Problem-1
 Given an array A[] of size n. The task is to find the largest element in it.
  
-
 Example 1:
 
 Input:
@@ -17,4 +17,23 @@ Expected Auxiliary Space: O(1)
 Constraints:
 1 <= n<= 10^3
 0 <= A[i] <= 10^3
+Array may contain duplicate elements. 
+
+Problem-2
+Given an array, find the second smallest and second largest element in the array. Print ‘-1’ in the event that either of them doesn’t exist.
+
+Input:
+n = 5
+A[] = {1, 2, 3, 4, 4}
+Output:
+[3,2]
+Explanation:
+The seclargest is 3 and secSmallest is 2
+
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(1)
+
+Constraints:
+2 <= n<= 10^5
+0 <= A[i] <= 10^9
 Array may contain duplicate elements. 
