@@ -1,19 +1,13 @@
 // Brute Force - O(N^2)
-function rotateArr(arr, d, n) {
+function rotateArr(arr, n) {
   // code here
-  for (let i = 0; i < d; i++) {
-    let temp = arr[0];
-    for (let j = 0; j < n; j++) {
-      arr[j] = arr[j + 1];
-    }
-    arr[n - 1] = temp;
+  let temp = arr[0];
+  for (let i = 0; i < n; i++) {
+    arr[i] = arr[i + 1];
   }
+  arr[n - 1] = temp;
   return arr;
 }
 
-var result = rotateArr([1, 2, 3, 4, 5], 2, 5);
+var result = rotateArr([1, 2, 3, 4, 5], 5);
 console.log(result);
-
-/*Notes
-Received TLE Error on BF
-*/
