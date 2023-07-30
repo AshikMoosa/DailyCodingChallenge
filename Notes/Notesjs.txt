@@ -13,22 +13,22 @@ Output
 ----------------------------------------------------------------------------------------------
 #DataTypes - JS
 JavaScript has 8 Datatypes
--String
--Number
--Bigint
--Boolean
--Undefined
--Null
--Symbol
--Object
+-String   - Strings can contain any sequence of characters, and there are no specific minimum or maximum values for strings.
+-Number   - Minimum value: -(2^53 - 1) or -Number.MAX_SAFE_INTEGER (approximately -9007199254740991) , Maximum value: 2^53 - 1 or Number.MAX_SAFE_INTEGER (approximately 9007199254740991)
+-Bigint   - Minimum value: -(2^53 - 1) , Maximum value: 2^53 - 1 
+-Boolean  - The Boolean data type has two possible values: true and false.
+-Undefined- The value of an uninitialized variable is undefined.
+-Null     - The Null data type has only one value, which is null.
+-Symbol   - Symbols are unique and immutable values, and they can be used as property keys for objects.
+-Object   - The Object data type represents complex data structures and can hold various properties and values.
 
 ----------------------------------------------------------------------------------------------
-#Arrays - Js
+#Arrays - Js - Arrays are objects that can store multiple values of any type.
 -1D
 -const cars = ["Saab", "Volvo", "BMW"];
 -const cars = [];
 -const cars = new Array("Saab", "Volvo", "BMW");
-
+-const cars = new Array(10);                      // cars.length => 10.
 -2D
 -let myArray = [
 [0, 1, 2, 3], 
