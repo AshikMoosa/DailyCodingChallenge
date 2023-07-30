@@ -10,9 +10,11 @@ function arraySortedOrNot(arr, n) {
 }
 
 var result = arraySortedOrNot([10, 20, 30, 40, 50], 5);
+
 console.log(result);
 
 /*Notes
 Here for loop index i starts from 1 else we get exception on accessing arr[-1] if i=0;
-No clue why g4g fails, we can simply compare arr[i] < arr[0] to check arr is sorted.
+No clue why g4g fails, we can simply compare arr[i] < arr[0] to check arr is sorted
+- Clue - [10,30,20,40] if we compare arr[i] < arr[0] return true but its still wrong
 */

@@ -1,3 +1,4 @@
+// BF - O(n)
 function largest(arr, n) {
   // write your code here
   let largest = arr[0];
