@@ -220,8 +220,24 @@ Explanation: n = 3 since there are 3 numbers, so all numbers are in the range [0
 Constraints:
 
 n == nums.length
-1 <= n <= 104
+1 <= n <= 10^4
 0 <= nums[i] <= n
 All the numbers of nums are unique.
  
 Follow up: Solve using only O(1) extra space complexity and O(n) runtime complexity?
+
+Problem-11 : https://leetcode.com/problems/max-consecutive-ones/description/
+Given a binary array nums, return the maximum number of consecutive 1's in the array.
+
+Example 1:
+Input: nums = [1,1,0,1,1,1]
+Output: 3
+Explanation: The first two digits or the last three digits are consecutive 1s. The maximum number of consecutive 1s is 3.
+
+Example 2:
+Input: nums = [1,0,1,1,0,1]
+Output: 2
+ 
+Constraints:
+1 <= nums.length <= 10^5
+nums[i] is either 0 or 1.
