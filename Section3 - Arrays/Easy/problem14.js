@@ -1,5 +1,5 @@
 // BF  - O(N^3)
-function longestSubArr(arr, n, k) {
+function longestSubArrNegative(arr, n, k) {
   let len = 0;
   for (let i = 0; i < n; i++) {
     for (let j = i; j < n; j++) {
@@ -15,7 +15,7 @@ function longestSubArr(arr, n, k) {
   return len;
 }
 
-let result = longestSubArr([1, 2, 3, 1, 1, 1, 1], 7, 3);
+let result = longestSubArrNegative([1, 2, 3, 1, 1, 1, 1], 7, 3);
 console.log(result);
 
 /*Notes

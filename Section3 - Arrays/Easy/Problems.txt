@@ -281,3 +281,19 @@ Explanation: The longest subarray with sum 10 is {2, 3, 5}. And its length is 3.
 k <= 10 ^ 3
 0 <= a[i] <= 10^9
 
+Problem-14 : https://www.codingninjas.com/studio/problems/longest-subarray-with-sum-k_5713505
+Given an array and a sum k, we need to print the length of the longest subarray that sums to k
+
+Example 1:
+Input Format: N = 3, k = 5, array[] = {2,3,5}
+Result: 2
+Explanation: The longest subarray with sum 5 is {2, 3}. And its length is 2.
+
+Example 2:
+Input Format: N = 3, k = 1, array[] = {-1, 1, 1}
+Result: 3
+Explanation: The longest subarray with sum 1 is {-1, 1, 1}. And its length is 3.
+
+1 <= N
+-10^3 <= k <= 10 ^ 3
+-10^6 <= a[i] <= 10^6
