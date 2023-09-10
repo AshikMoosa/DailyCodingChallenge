@@ -263,3 +263,21 @@ Constraints:
 1 <= nums.length <= 3 * 10^4
 -3 * 10^4 <= nums[i] <= 3 * 10^4
 Each element in the array appears twice except for one element which appears only once.
+
+Problem-13 : https://www.codingninjas.com/studio/problems/longest-subarray-with-sum-k_6682399
+Given an array and a sum k, we need to print the length of the longest subarray that sums to k
+
+Example 1:
+Input Format: N = 3, k = 5, array[] = {2,3,5}
+Result: 2
+Explanation: The longest subarray with sum 5 is {2, 3}. And its length is 2.
+
+Example 2:
+Input Format: N = 5, k = 10, array[] = {2,3,5,1,9}
+Result: 3
+Explanation: The longest subarray with sum 10 is {2, 3, 5}. And its length is 3.
+
+1 <= N
+k <= 10 ^ 3
+0 <= a[i] <= 10^9
+
