@@ -23,3 +23,20 @@
     }
     return result; // result is array of arrays [1] , [1,2] , & so on
   }
+
+-CHATGPT 
+The given program generates all possible subarrays of an input array `arr` of size `n`. 
+
+Time Complexity:
+1. The outermost loop runs from `i = 0` to `i = n-1`, so it has a time complexity of O(n).
+2. The second loop runs from `j = i` to `j = n-1` for each `i`, so on average, it has a time complexity of O(n/2), which simplifies to O(n).
+3. The innermost loop runs from `k = i` to `k = j`, where `j >= i`. In the worst case, this loop runs for `(n-1) + (n-2) + ... + 1 + 0` times, 
+   which is equal to `(n * (n-1)) / 2`. Therefore, it has a time complexity of O(n^2).
+
+The total time complexity is dominated by the O(n^2) innermost loop, so the overall time complexity of the program is O(n^3), where 'n' is the size of the input array.
+
+Space Complexity:
+1. The `result` array stores all the subarrays, and in the worst case, there can be (n * (n + 1)) / 2 subarrays generated, so the space complexity for storing these subarrays is O(n^2).
+2. The `miniArray` array is used to store each subarray temporarily. In the worst case, it can have a size of 'n', so the space complexity for `miniArray` is O(n).
+
+The space complexity of the program is dominated by the O(n^2) space used for storing subarrays in the `result` array. Therefore, the overall space complexity is O(n^2).
