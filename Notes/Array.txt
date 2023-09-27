@@ -1,0 +1,25 @@
+#SubArrays 
+
+-Longest contiguous part of array is called subarray
+-Consider an array = [1,2,3] the subarrays are as follows:
+-[1]
+-[1,2]
+-[1,2,3] - entire array is also a subarray
+-[2]
+-[2,3]
+-[3] 
+
+-To generate this, in brute force write 3 loops
+- function subArray(arr,n) {
+    let result= [];
+    for (let i = 0; i < n; i++) {
+        for (let j = i; j < n; j++) {
+          let miniArray = [];
+          for (let k = i; k <= j; k++) {
+            miniArray.push(arr[k])
+          }
+          result.push(miniArray) 
+        }
+    }
+    return result; // result is array of arrays [1] , [1,2] , & so on
+  }
