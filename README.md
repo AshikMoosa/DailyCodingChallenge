@@ -10,16 +10,16 @@ Solutions will be coded in javascript and java. More languages may be added in f
 The repository is structured to keep problems organized by categories and provide explanations for each solution. Here's an overview:
 
 - [Notes](./Notes/)
-- [Section Basics](./Section1 - Basics/)
-  - [Patterns](./Section1 - Basics/Patterns/)
-  - [Math](./Section1 - Basics/Math/)
-  - [Recursion](./Section1 - Basics/Recursion/)
-  - [Hashing](./Section1 - Basics/Hashing/)
-- [Section-2 Sorting](./Section2 - Sorting/)
-- [Section3 - Arrays](./Section3 - Arrays/)
-  - [Easy](./Section3 - Arrays/Easy/)
-  - [Medium](./Section3 - Arrays/Medium/)
-  - [Hard](./Section3 - Arrays/Hard/)
+- [Section-1 Basics](./Section1%20-%20Basics/)
+  - [Patterns](./Section1%20-%20Basics/Patterns/)
+  - [Math](./Section1%20-%20Basics/Math/)
+  - [Recursion](./Section1%20-%20Basics/Recursion/)
+  - [Hashing](./Section1%20-%20Basics/Hashing/)
+- [Section-2 Sorting](./Section2%20-%20Sorting/)
+- [Section-3 Arrays](./Section3%20-%20Arrays/)
+  - [Easy](./Section3%20-%20Arrays/Easy/)
+  - [Medium](./Section3%20-%20Arrays/Medium/)
+  - [Hard](./Section3%20-%20Arrays//Hard/)
 
 Each category folder contains problem solutions, explanations, and any relevant resources. Problems are further organized into separate folders within the respective category.
 
