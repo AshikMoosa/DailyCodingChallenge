@@ -9,7 +9,7 @@ Solutions will be coded in javascript and java. More languages may be added in f
 
 The repository is structured to keep problems organized by categories and provide explanations for each solution. Here's an overview:
 
-- [Section-1 Basics](./Section1 - Basics)
+- [Section Basics](./Section1 - Basics)
   - [Patterns](./Section1 - Basics/Patterns)
   - [Math](./Section1 - Basics/Math)
   - [Recursion](./Section1 - Basics/Recursion)
